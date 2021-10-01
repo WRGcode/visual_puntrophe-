@@ -1,4 +1,13 @@
 # visual_puntrophe-
 
-•To Start Hard Mode type 'start_hard' in to the url
-•To Start Harder Mode type 'start_harder' in to the url
+
+`<a href="">
+                <img alt="Visual_pun_" src="" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:</p>`
+
+                else if (req.url === '') {
+                
+            }
