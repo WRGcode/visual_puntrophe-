@@ -1,9 +1,0 @@
-wecome to Visual Puntrophe
-
-how to play
-• to answer you text in the url
-•all answers are in lowercase
-•if any spaces are needed they well be with _
-•if you guess wrong just go back a to the question you were on 
-
-•To Start type 'start' in to the url

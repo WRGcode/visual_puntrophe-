@@ -3,8 +3,9 @@ const fs = require("fs");
 
 http
     .createServer()
+
     .on("request", (req, res)=>{
-        const fileStream = fs.createReadStream("utf8")
+        
         
 
         if (req.url === '/'){ res.end(`<h1> The Magic Tome of Visual Puntrophe </h1>
@@ -20,6 +21,7 @@ http
             <br>
             <p>-To Start type '/start' in to the url</p>
             `)}
+            
             else if (req.url === '/start') {
                 res.end(`<a href="https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-1-583c3f7c92766__700.jpg">
                 <img alt="Visual_pun_1" src="https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-1-583c3f7c92766__700.jpg" 
@@ -43,7 +45,7 @@ http
                 width="700" height="700"/>
                 </a>
                 <br>
-                <p>hint: going shoping?</p>`)
+                <p>hint:life goals?</p>`)
             }
             else if (req.url === '/bucket_list') {
                 res.end(`<a href="https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-98-583e9b781ce77__700.jpg">
@@ -72,9 +74,11 @@ http
             else if (req.url === '/chain_saw') {
                 res.end(`<h1>Old Man Jenkins: You Win now try level 2 by puting "start_lv2" in the url</h1>`)
             }
+
             else if (req.url === '/cheat_sheat') {
                 res.end(`<h1>Old Man Jenkins: are you really trying to cheat go back an play proper like you hear</h1>`)
             }
+
             else if (req.url === '/start_lv2') {
                 res.end(`<a href="https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-102-583edd5d4052f__700.jpg">
                 <img alt="Visual_pun_LV2_1" src="https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-102-583edd5d4052f__700.jpg" 
@@ -126,8 +130,57 @@ http
             else if (req.url === '/couch_potato') {
                 res.end(`<h1>Old Man Jenkins: You Win now try level 3 by puting "go_lv3" in the url</h1>`)
             }
+
             else if (req.url === '/go_lv3') {
-                res.end(`Level 3 does no exist at this curent time`)
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_1" src="https://media1.fdncms.com/northcoast/imager/a-dumboldt-tradition/u/original/2185934/cereal-killer.jpeg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:the police are still on the hunt for mass-murder by...</p>`) 
+            }
+            else if (req.url === '/cereal_killer') {
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_2" src="https://thumbs.dreamstime.com/b/cartoon-character-mini-lugage-smile-expression-vector-illustration-cartoon-character-mini-lugage-smile-expression-205574347.jpg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:human luggage</p>`) 
+            }
+            else if (req.url === '/emotional_baggage') {
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_3" src="https://i.pinimg.com/originals/8b/38/8a/8b388ab66cd415301c2abccbb35b1a67.jpg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:"Drosophila melanogaster"</p>`) 
+            }
+            else if (req.url === '/fruit_fly') {
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_4" src="https://www.coolpun.com/images/coolpun/a1/a173fa735da598a300cf4911b2a643c8.jpeg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:soda to surgeon</p>`) 
+            }
+            else if (req.url === '/dr_pepper') {
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_5" src="https://i.pinimg.com/originals/c7/d0/e1/c7d0e13e347164ad329240e262f79059.jpg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:which road to you take</p>`) 
+            }
+            else if (req.url === '/fork_in_the_road') {
+                res.end(`<a>
+                <img alt="Visual_pun_LV3_6" src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/mad-fruit-mal-bray.jpg" 
+                width="700" height="700"/>
+                </a>
+                <br>
+                <p>hint:the art that does not attempt accurate depiction but with food </p>`) 
+            }
+            else if (req.url === '/absnack') {
+                res.end(`<h1>Old Man Jenkins: You Win there is nothing else for now</h1>`)
             }
 
             else if (req.url === '/peck') {
@@ -189,9 +242,36 @@ http
                 <p>hint:"a person who spends little or no time exercising and a great deal of time watching television."</p>
                 
                 <br />
-                <p></p>
-                <p></p>
-                <p></p>`)
+                <p>https://media1.fdncms.com/northcoast/imager/a-dumboldt-tradition/u/original/2185934/cereal-killer.jpeg
+                </p>
+                <p>cereal_killer</p>
+                <p>hint: the police are still on the hunt for mass-murder by...
+                </p>
+                <br />
+
+                <p> https://thumbs.dreamstime.com/b/cartoon-character-mini-lugage-smile-expression-vector-illustration-cartoon-character-mini-lugage-smile-expression-205574347.jpg </p>
+                <p>emotional_baggage</p>
+                <p>hint:human luggage</p>
+                <br />
+
+                <p>https://ih1.redbubble.net/image.965007334.6777/farp,small,wall_texture,product,750x1000.jpg</p>
+                <p>a_salt_with_a_deadly_weapon</p>
+                <p>hint: you are going to jain under these charges </p>
+                <br />
+
+                <p>https://www.coolpun.com/images/coolpun/a1/a173fa735da598a300cf4911b2a643c8.jpeg</p>
+                <p>dr_pepper</p>
+                <p>hint: soda to surgeon</p>
+
+                <br />
+                <p>https://i.pinimg.com/originals/c7/d0/e1/c7d0e13e347164ad329240e262f79059.jpg</p>
+                <p>fork_in_the_road</p>
+                <p>hint: which road to you take</p>
+                <br />
+                
+                <p>https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/mad-fruit-mal-bray.jpg</p>
+                <p>absnack</p>
+                <p>hint: the art that does not attempt accurate depiction but with food</p>`)
             }
         else res.end('Old Man Jenkins: Go back and try Again')
     })

@@ -19,9 +19,6 @@ Cheat Sheat all
     screenshot
     hint: synonym of screen capture
 
-•https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-83-583eccbb049a3__700.jpg
-    spring_is_around_the_corner
-    hint: is around the (change)
 ••https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-3-583d42a266cd5__700.jpg
     bucket_list
     hint: going shoping?
@@ -45,9 +42,10 @@ Cheat Sheat all
     pumpkin_pie
     hint: it smells and tastes like the season of fall
     
-•https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-95-583edc3e1f417__700.jpg
+•••https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-95-583edc3e1f417__700.jpg
     couch_potato
     hint: "a person who spends little or no time exercising and a great deal of time watching television."
+
 ••https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-44-583d9d1b95ca0__700.jpg
     chain_saw
     hint: how is that going to cut a tree
@@ -55,9 +53,12 @@ Cheat Sheat all
 •••https://i.redd.it/pf51nbzq06u51.png
     impasta
     hint: when _ is sus
+
+
 •
 •
 •
-•https://www.boredpanda.com/blog/wp-content/uploads/2016/11/clever-puns-46-583da1e8ceaf5__700.jpg
-    3d_print
-    hint: ()
+•
+•
+•
+
